@@ -20,7 +20,7 @@ npm i svelte-mq-store
 <script>
   import { listen } from 'svelte-mq-store'
 
-  const isDark = listen('prefers-color-scheme', 'dark')
+  const isDark = listen('(prefers-color-scheme: dark)')
 </script>
 
 {#if $isDark}
