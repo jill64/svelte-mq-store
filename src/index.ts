@@ -1,9 +1,3 @@
-import { BROWSER } from 'esm-env'
-import { readable } from 'svelte/store'
+import { Listen } from './types/Listen.js'
 
-export const listen = <T = undefined>(key: string, fallback?: T) =>
-  readable<boolean | T>(BROWSER ? matchMedia(key).matches : fallback, (set) => {
-    if (BROWSER) {
-      matchMedia(key).addEventListener('change', (e) => set(e.matches))
-    }
-  })
+export declare const listen: Listen

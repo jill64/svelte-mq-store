@@ -6,13 +6,13 @@
 
 📱 Create any media-query store in Svelte
 
+<!----- END GHOST DOCS HEADER ----->
+
 ## Installation
 
 ```sh
 npm i svelte-mq-store
 ```
-
-<!----- END GHOST DOCS HEADER ----->
 
 ## Usage
 

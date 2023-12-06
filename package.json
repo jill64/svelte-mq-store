@@ -1,19 +1,18 @@
 {
   "name": "svelte-mq-store",
   "description": "📱 Create any media-query store in Svelte",
-  "version": "1.0.0",
-  "main": "dist/index.js",
+  "version": "2.0.0",
   "type": "module",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
+      "worker": "./dist/fallback.js",
+      "browser": "./dist/browser.js",
+      "default": "./dist/fallback.js"
     }
   },
   "files": [
-    "dist",
-    "!*.test.*",
-    "!*.spec.*"
+    "dist"
   ],
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
@@ -35,19 +34,16 @@
     "build": "tsc && npx publint",
     "prepack": "npm run build",
     "lint": "npx eslint . && npx depcheck",
-    "format": "npx prettier --write ."
+    "format": "npx prettier -w ."
   },
   "peerDependencies": {
     "svelte": "^4.0.0"
   },
+  "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "6.13.2",
-    "@typescript-eslint/parser": "6.13.2",
-    "eslint-plugin-deprecation": "2.0.0",
+    "@jill64/eslint-config-ts": "1.0.0",
+    "@jill64/prettier-config": "1.0.0",
     "svelte": "4.2.8",
     "typescript": "5.3.2"
-  },
-  "dependencies": {
-    "esm-env": "1.0.0"
   }
 }
