@@ -1,7 +1,7 @@
 {
   "name": "svelte-mq-store",
   "description": "📱 Create any media-query store in Svelte",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "type": "module",
   "exports": {
     "./optimized": {
