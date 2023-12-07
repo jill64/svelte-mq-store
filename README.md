@@ -16,6 +16,8 @@ npm i svelte-mq-store
 
 ## Usage
 
+Use the `listen` to subscribe to the contents of any media query.
+
 ```svelte
 <script>
   import { listen } from 'svelte-mq-store'
@@ -28,4 +30,31 @@ npm i svelte-mq-store
 {:else}
   Device is light mode
 {/if}
+```
+
+## Fallback in Server
+
+Media queries are available only in the browser.  
+The fallback value used by the server during SSR can be specified as the second argument. (default is undefined).
+
+```js
+import { listen } from 'svelte-mq-store'
+
+const isDark = listen(
+  '(prefers-color-scheme: dark)',
+  false // fallback value
+)
+```
+
+## Optimized Conditional Import
+
+Conditional Import can be used to exclude from the server bundle code that is not used on the server.　　
+This will slightly reduce the size of the server output.  
+However, proper configuration of the bundler is required.  
+To opt-in to this feature, import from the `/optimized` path.
+
+```js
+import { listen } from 'svelte-mq-store/optimized'
+
+const isDark = listen('(prefers-color-scheme: dark)')
 ```
