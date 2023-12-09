@@ -2,7 +2,7 @@
 
 # svelte-mq-store
 
-[![npm-version](https://img.shields.io/npm/v/svelte-mq-store)](https://npmjs.com/package/svelte-mq-store) [![npm-license](https://img.shields.io/npm/l/svelte-mq-store)](https://npmjs.com/package/svelte-mq-store) [![npm-download-month](https://img.shields.io/npm/dm/svelte-mq-store)](https://npmjs.com/package/svelte-mq-store) [![npm-min-size](https://img.shields.io/bundlephobia/min/svelte-mq-store)](https://npmjs.com/package/svelte-mq-store)
+[![ci.yml](https://github.com/jill64/svelte-mq-store/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/svelte-mq-store/actions/workflows/ci.yml)
 
 📱 Create any media-query store in Svelte
 
