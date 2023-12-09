@@ -2,7 +2,7 @@
 
 # svelte-mq-store
 
-[![npm-version](https://img.shields.io/npm/v/svelte-mq-store)](https://npmjs.com/package/svelte-mq-store) [![npm-license](https://img.shields.io/npm/l/svelte-mq-store)](https://npmjs.com/package/svelte-mq-store) [![npm-download-month](https://img.shields.io/npm/dm/svelte-mq-store)](https://npmjs.com/package/svelte-mq-store) [![npm-min-size](https://img.shields.io/bundlephobia/min/svelte-mq-store)](https://npmjs.com/package/svelte-mq-store)
+[![ci.yml](https://github.com/jill64/svelte-mq-store/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/svelte-mq-store/actions/workflows/ci.yml)
 
 📱 Create any media-query store in Svelte
 
@@ -44,17 +44,4 @@ const isDark = listen(
   '(prefers-color-scheme: dark)',
   false // fallback value
 )
-```
-
-## Optimized Conditional Import
-
-Conditional Import can be used to exclude from the server bundle code that is not used on the server.　　
-This will slightly reduce the size of the server output.  
-However, proper configuration of the bundler is required.  
-To opt-in to this feature, import from the `/optimized` path.
-
-```js
-import { listen } from 'svelte-mq-store/optimized'
-
-const isDark = listen('(prefers-color-scheme: dark)')
 ```
