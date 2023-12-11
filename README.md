@@ -2,7 +2,7 @@
 
 # svelte-mq-store
 
-[![ci.yml](https://github.com/jill64/svelte-mq-store/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/svelte-mq-store/actions/workflows/ci.yml)
+<!----- BEGIN GHOST DOCS BADGES -----><a href="https://github.com/jill64/svelte-mq-store/actions/workflows/ci.yml"><img src="https://github.com/jill64/svelte-mq-store/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a><!----- END GHOST DOCS BADGES ----->
 
 📱 Create any media-query store in Svelte
 
