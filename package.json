@@ -1,16 +1,30 @@
 {
   "name": "svelte-mq-store",
+  "description": "",
   "main": "dist/index.js",
+  "version": "2.1.1",
   "type": "module",
   "files": [
     "dist"
   ],
+  "homepage": "",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "svelte": "./dist/index.js",
       "default": "./dist/index.js"
     }
+  },
+  "author": {
+    "name": "",
+    "url": "",
+    "image": ""
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "",
+    "image": ""
   },
   "prettier": "@jill64/prettier-config",
   "scripts": {
@@ -30,9 +44,11 @@
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.0.2",
-    "@jill64/prettier-config": "1.0.0",
+    "@jill64/npm-demo-layout": "^0.2.4",
     "@jill64/playwright-config": "2.2.0",
+    "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "1.5.0",
+    "@jill64/universal-sanitizer": "^1.0.0",
     "@playwright/test": "1.40.1",
     "@sveltejs/adapter-cloudflare": "2.3.4",
     "@sveltejs/kit": "1.29.0",
