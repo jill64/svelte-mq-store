@@ -47,3 +47,11 @@ const isDark = listen(
   false // fallback value
 )
 ```
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
