@@ -2,7 +2,7 @@
   "name": "svelte-mq-store",
   "description": "📱 Create any media-query store in Svelte",
   "main": "dist/index.js",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "type": "module",
   "files": [
     "dist"
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.2.2",
-    "@jill64/npm-demo-layout": "1.0.100",
+    "@jill64/npm-demo-layout": "1.0.101",
     "@jill64/playwright-config": "2.2.3",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "1.7.5",
