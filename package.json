@@ -24,7 +24,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-mq-store.git",
-    "image": "https://opengraph.githubassets.com/b4642344decb0a31835423f8981078372d5e6cb2ac5e540d9ddbd837014a8467/jill64/svelte-mq-store"
+    "image": "https://opengraph.githubassets.com/c111796a6474ca6f8c4c0ad9367e2c9e0658618f12bafc1791d2514cb1303dd5/jill64/svelte-mq-store"
   },
   "prettier": "@jill64/prettier-config",
   "scripts": {
@@ -50,7 +50,7 @@
     "@jill64/sentry-sveltekit-cloudflare": "1.7.15",
     "@jill64/universal-sanitizer": "1.2.13",
     "@playwright/test": "1.45.0",
-    "@sveltejs/adapter-cloudflare": "4.5.0",
+    "@sveltejs/adapter-cloudflare": "4.6.0",
     "@sveltejs/kit": "2.5.17",
     "svelte": "4.2.18",
     "typescript": "5.5.2",
