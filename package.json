@@ -24,7 +24,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-mq-store.git",
-    "image": "https://opengraph.githubassets.com/1e6f2b84a0b4810a05ff49bc15b5de54c10346afc22a5d1964a154d34a0e8559/jill64/svelte-mq-store"
+    "image": "https://opengraph.githubassets.com/8db56e95b1107b12fe7b94d281ac0eb355a246111b36336c4389a70244513203/jill64/svelte-mq-store"
   },
   "prettier": "@jill64/prettier-config",
   "scripts": {
@@ -54,7 +54,7 @@
     "@sveltejs/kit": "2.5.17",
     "svelte": "4.2.18",
     "typescript": "5.5.2",
-    "vite": "5.3.2",
+    "vite": "5.3.3",
     "@sveltejs/vite-plugin-svelte": "3.1.1"
   },
   "license": "MIT",
