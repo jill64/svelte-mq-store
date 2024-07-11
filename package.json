@@ -24,7 +24,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-mq-store.git",
-    "image": "https://opengraph.githubassets.com/6dba3c09db737f96470df1d7103628e07dd1ab23fa9308c77e1e1f8c77deaf8a/jill64/svelte-mq-store"
+    "image": "https://opengraph.githubassets.com/6d2fa671674ee0cc63cde31d8526abfb24a9bcb5eb6f22db865150dca8752a93/jill64/svelte-mq-store"
   },
   "prettier": "@jill64/prettier-config",
   "scripts": {
