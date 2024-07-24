@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { listen } from '$lib'
+  import { listen } from '$lib/index.svelte'
   import { HighlightSvelte } from '@jill64/npm-demo-layout/highlight'
   import { code } from './code'
 
-  let query = '(prefers-color-scheme: dark)'
+  let query = $state('(prefers-color-scheme: dark)')
 
-  $: result = listen(query)
+  let result = $derived(listen(query))
 </script>
 
 <main>
@@ -13,7 +13,7 @@
     @media <input bind:value={query} />
   </span>
   <output>
-    <HighlightSvelte code={code({ query, result: $result })} />
+    <HighlightSvelte code={code({ query, result })} />
   </output>
 </main>
 

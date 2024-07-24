@@ -9,8 +9,8 @@ export const code = ({
 <script>
   import { listen } from 'svelte-mq-store'
 
-  $: result = listen('${query}')
+  let result = listen('${query}')
 </script>
 
-<output>$result: ${result}</output>
+<output>result: ${result}</output>
 `.trim()
