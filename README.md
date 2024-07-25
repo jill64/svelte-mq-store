@@ -31,7 +31,7 @@ Use the `listen` to subscribe to the contents of any media query.
   let isDark = listen('(prefers-color-scheme: dark)')
 </script>
 
-{#if isDark}
+{#if isDark.value}
   Device is dark mode
 {:else}
   Device is light mode
