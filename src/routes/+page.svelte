@@ -13,7 +13,7 @@
     @media <input bind:value={query} />
   </span>
   <output>
-    <HighlightSvelte code={code({ query, result })} />
+    <HighlightSvelte code={code({ query, result: result.value })} />
   </output>
 </main>
 
