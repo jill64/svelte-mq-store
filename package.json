@@ -2,7 +2,7 @@
   "name": "svelte-mq-store",
   "description": "📱 Create any media-query store in Svelte",
   "main": "dist/index.js",
-  "version": "2.2.20",
+  "version": "2.2.21",
   "type": "module",
   "files": [
     "dist"
@@ -24,7 +24,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-mq-store.git",
-    "image": "https://opengraph.githubassets.com/24f23d67de7d42b16b4e255bf057bb53f0641d94db40c391813c5cbead38c972/jill64/svelte-mq-store"
+    "image": "https://opengraph.githubassets.com/4d85989a53602dd520800f6389dadbe91f8a8cb14c5e7341d999998ae12ddd13/jill64/svelte-mq-store"
   },
   "prettier": "@jill64/prettier-config",
   "scripts": {
@@ -54,7 +54,7 @@
     "@sveltejs/kit": "2.5.24",
     "svelte": "4.2.19",
     "typescript": "5.5.3",
-    "vite": "5.3.5",
+    "vite": "5.3.6",
     "@sveltejs/vite-plugin-svelte": "3.1.2"
   },
   "license": "MIT",
