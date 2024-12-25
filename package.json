@@ -1,8 +1,8 @@
 {
   "name": "svelte-mq-store",
   "description": "📱 Create any media-query store in Svelte",
-  "main": "dist/index.js",
-  "version": "2.2.22",
+  "main": "dist/index.svelte.js",
+  "version": "3.0.0",
   "type": "module",
   "files": [
     "dist"
@@ -10,9 +10,9 @@
   "homepage": "https://github.com/jill64/svelte-mq-store#readme",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "svelte": "./dist/index.js",
-      "default": "./dist/index.js"
+      "types": "./dist/index.svelte.d.ts",
+      "svelte": "./dist/index.svelte.js",
+      "default": "./dist/index.svelte.js"
     }
   },
   "author": {
@@ -24,7 +24,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-mq-store.git",
-    "image": "https://opengraph.githubassets.com/51db7fcbe95b20808c646e165b1a1ebcf401794e98b705627ea397cef0f4a415/jill64/svelte-mq-store"
+    "image": "https://opengraph.githubassets.com/36117ee77d6d4c25baa33581cfe600f4b491a735cc689133cd475893e95ef6f6/jill64/svelte-mq-store"
   },
   "prettier": "@jill64/prettier-config",
   "scripts": {
@@ -40,7 +40,7 @@
   },
   "peerDependencies": {
     "@sveltejs/kit": "^2.0.0",
-    "svelte": "^4.0.0"
+    "svelte": "^5.0.0"
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.3.18",
@@ -49,13 +49,13 @@
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "2.0.1",
     "@jill64/universal-sanitizer": "1.3.5",
-    "@playwright/test": "1.48.0",
+    "@playwright/test": "1.49.1",
     "@sveltejs/adapter-cloudflare": "4.9.0",
-    "@sveltejs/kit": "2.8.3",
-    "svelte": "4.2.19",
-    "typescript": "5.6.2",
-    "vite": "5.4.11",
-    "@sveltejs/vite-plugin-svelte": "3.1.2"
+    "@sveltejs/kit": "2.15.0",
+    "svelte": "5.16.0",
+    "typescript": "5.7.2",
+    "vite": "6.0.5",
+    "@sveltejs/vite-plugin-svelte": "5.0.3"
   },
   "license": "MIT",
   "bugs": "https://github.com/jill64/svelte-mq-store/issues",

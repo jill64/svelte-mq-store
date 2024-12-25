@@ -28,10 +28,10 @@ Use the `listen` to subscribe to the contents of any media query.
 <script>
   import { listen } from 'svelte-mq-store'
 
-  const isDark = listen('(prefers-color-scheme: dark)')
+  let isDark = $derived(listen('(prefers-color-scheme: dark)'))
 </script>
 
-{#if $isDark}
+{#if isDark.v}
   Device is dark mode
 {:else}
   Device is light mode
@@ -46,9 +46,11 @@ The fallback value used by the server during SSR can be specified as the second 
 ```js
 import { listen } from 'svelte-mq-store'
 
-const isDark = listen(
-  '(prefers-color-scheme: dark)',
-  false // fallback value
+let isDark = $derived(
+  listen(
+    '(prefers-color-scheme: dark)',
+    false // fallback value
+  )
 )
 ```
 
