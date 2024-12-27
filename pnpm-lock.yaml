@@ -29,8 +29,8 @@ importers:
         specifier: 1.49.1
         version: 1.49.1
       '@sveltejs/adapter-cloudflare':
-        specifier: 4.9.0
-        version: 4.9.0(@sveltejs/kit@2.15.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(wrangler@3.78.4(@cloudflare/workers-types@4.20240909.0))
+        specifier: 5.0.0
+        version: 5.0.0(@sveltejs/kit@2.15.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(wrangler@3.78.4(@cloudflare/workers-types@4.20241224.0))
       '@sveltejs/kit':
         specifier: 2.15.0
         version: 2.15.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5))
@@ -114,10 +114,10 @@ packages:
       }
     engines: { node: '>=16.7.0' }
 
-  '@cloudflare/workers-types@4.20240909.0':
+  '@cloudflare/workers-types@4.20241224.0':
     resolution:
       {
-        integrity: sha512-4knwtX6efxIsIxawdmPyynU9+S8A78wntU8eUIEldStWP4gNgxGkeWcfCMXulTx8oxr3DU4aevHyld9HGV8VKQ==
+        integrity: sha512-1ZmFc8qqM7S/HUGmLplc4P8n8DoMqiJmc47r9Lr7VbuaotoqCXVljz09w1V1mc4K3pbFPgvqSy4XYStZ08HrlQ==
       }
 
   '@cspotcode/source-map-support@0.8.1':
@@ -1108,14 +1108,14 @@ packages:
       }
     engines: { node: '>=14.18' }
 
-  '@sveltejs/adapter-cloudflare@4.9.0':
+  '@sveltejs/adapter-cloudflare@5.0.0':
     resolution:
       {
-        integrity: sha512-o7o8wXy5zDsEuE9oPWSHO5tAuPEulZZg2QavFdc00fcIHh1dxgCyIRZa5LPjAE8EcdJOh+8SFkhFgVRdCfOBvQ==
+        integrity: sha512-YYfkdEajp4sALHFYeIUUQTGC3M1ZicrYYSVz1zmYwR2DKT59dwygYsdufI4L6ONNsDdRh3xeojjo8sO3V9dHcw==
       }
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
-      wrangler: ^3.28.4
+      wrangler: ^3.87.0
 
   '@sveltejs/kit@2.15.0':
     resolution:
@@ -2948,7 +2948,7 @@ snapshots:
       mime: 3.0.0
       zod: 3.23.8
 
-  '@cloudflare/workers-types@4.20240909.0': {}
+  '@cloudflare/workers-types@4.20241224.0': {}
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -3425,13 +3425,13 @@ snapshots:
     dependencies:
       '@sentry/types': 8.9.2
 
-  '@sveltejs/adapter-cloudflare@4.9.0(@sveltejs/kit@2.15.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(wrangler@3.78.4(@cloudflare/workers-types@4.20240909.0))':
+  '@sveltejs/adapter-cloudflare@5.0.0(@sveltejs/kit@2.15.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(wrangler@3.78.4(@cloudflare/workers-types@4.20241224.0))':
     dependencies:
-      '@cloudflare/workers-types': 4.20240909.0
+      '@cloudflare/workers-types': 4.20241224.0
       '@sveltejs/kit': 2.15.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5))
       esbuild: 0.24.2
       worktop: 0.8.0-next.18
-      wrangler: 3.78.4(@cloudflare/workers-types@4.20240909.0)
+      wrangler: 3.78.4(@cloudflare/workers-types@4.20241224.0)
 
   '@sveltejs/kit@2.15.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5)))(svelte@5.16.0)(vite@6.0.6(@types/node@22.5.5))':
     dependencies:
@@ -3595,7 +3595,7 @@ snapshots:
 
   acorn-walk@8.3.4:
     dependencies:
-      acorn: 8.12.1
+      acorn: 8.14.0
 
   acorn@8.12.1: {}
 
@@ -4082,7 +4082,7 @@ snapshots:
   miniflare@3.20240909.2:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      acorn: 8.12.1
+      acorn: 8.14.0
       acorn-walk: 8.3.4
       capnp-ts: 0.7.0
       exit-hook: 2.2.1
@@ -4503,7 +4503,7 @@ snapshots:
       mrmime: 2.0.0
       regexparam: 3.0.0
 
-  wrangler@3.78.4(@cloudflare/workers-types@4.20240909.0):
+  wrangler@3.78.4(@cloudflare/workers-types@4.20241224.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@cloudflare/workers-shared': 0.5.3
@@ -4524,7 +4524,7 @@ snapshots:
       workerd: 1.20240909.0
       xxhash-wasm: 1.0.2
     optionalDependencies:
-      '@cloudflare/workers-types': 4.20240909.0
+      '@cloudflare/workers-types': 4.20241224.0
       fsevents: 2.3.3
     transitivePeerDependencies:
       - bufferutil
