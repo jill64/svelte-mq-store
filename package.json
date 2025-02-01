@@ -24,7 +24,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-mq-store.git",
-    "image": "https://opengraph.githubassets.com/6aa00e9bed2d3a7b0047d8a62a54d19b0af5dc9a3df1097882bd003f367aea62/jill64/svelte-mq-store"
+    "image": "https://opengraph.githubassets.com/5d29ba35f2bf98df173576eb881e1db528f936f9af538ff558dc04914d393bc3/jill64/svelte-mq-store"
   },
   "prettier": "@jill64/prettier-config",
   "scripts": {
@@ -36,7 +36,7 @@
     "check": "svelte-kit sync && npx svelte-check",
     "lint": "npm run check && npx eslint .",
     "format": "npx @jill64/psx",
-    "test": "playwright test"
+    "test": "npx playwright install --with-deps && playwright test"
   },
   "peerDependencies": {
     "@sveltejs/kit": "^2.0.0",
