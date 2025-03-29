@@ -24,7 +24,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-mq-store.git",
-    "image": "https://opengraph.githubassets.com/b92f8cd494f2ebc60063c7d08d2416486a07ecee9d7ff86d0b57ce54402684ed/jill64/svelte-mq-store"
+    "image": "https://opengraph.githubassets.com/f306a8a05ab61bf0ec9ed6130f851e53121fd7af0004e04e45876be8d21c835e/jill64/svelte-mq-store"
   },
   "prettier": "@jill64/prettier-config",
   "scripts": {
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@jill64/eslint-config-svelte": "2.2.7",
-    "@jill64/npm-demo-layout": "2.0.18",
+    "@jill64/npm-demo-layout": "2.0.19",
     "@jill64/playwright-config": "3.0.0",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "2.0.6",
