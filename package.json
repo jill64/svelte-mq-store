@@ -54,7 +54,7 @@
     "svelte": "5.23.2",
     "typescript": "5.8.3",
     "vite": "6.2.7",
-    "@sveltejs/vite-plugin-svelte": "5.0.3"
+    "@sveltejs/vite-plugin-svelte": "5.1.0"
   },
   "license": "MIT",
   "bugs": "https://github.com/jill64/svelte-mq-store/issues",
